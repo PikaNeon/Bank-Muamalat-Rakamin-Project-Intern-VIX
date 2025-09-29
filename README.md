@@ -23,7 +23,7 @@ Primary key dari dataset Product Category adalah CategoryID.
 
 #### 3. Products (70 baris)
 
-Data: [Products.csv](/workspaces/Bank-Muamalat-Rakamin-Project-Intern-VIX/Data/Products.csv)
+Data: [Products.csv](Products.csv)
 - ProdNumber (str)
 - ProdName (str)
 - Category (int)
