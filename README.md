@@ -3,7 +3,7 @@ Primary key merupakan identitas setiap baris sehingga bersifat unique (tidak bol
 
 #### 1. Orders (3339 baris)
 
-Data: [Orders.csv](/workspaces/Bank-Muamalat-Rakamin-Project-Intern-VIX/Data/Orders.csv)
+Data: [Orders.csv](Orders.csv)
 - OrderID (int)
 - Date (dd/mm/yyyy)
 - CustomerID (int)
