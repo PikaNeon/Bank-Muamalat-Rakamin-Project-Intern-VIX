@@ -33,7 +33,7 @@ Primary key dari dataset Products adalah ProdNumber.
 
 #### 4. Customers (2123 baris)
 
-Data: [Customers.csv](/workspaces/Bank-Muamalat-Rakamin-Project-Intern-VIX/Data/Customers.csv)
+Data: [Customers.csv](Customers.csv)
 - CustomerID (int)
 - FirstName (str)
 - LastName (str)
@@ -48,7 +48,9 @@ Primary key dari dataset Customers adalah CustomerID.
 
 ## Task 2 (Relationship Antardataset)
 
-![relationship-4databases](image-1.png)
+Berikut relationship dari keempat dataset.
+<img width="638" height="455" alt="Screenshot 2025-09-29 224912" src="https://github.com/user-attachments/assets/e4b5d46e-1043-4dcd-9d4a-4a8a8c0d8563" />
+
 
 - Database Orders (variabel CustomerID:Foreign Key) memiliki relationship many-to-one dengan database Customers (variabel CustomerID) karena terdapat customer yang melakukan transaksi > 1. Hal ini ditunjukkan dengan CustomerID (contoh:2114) pada database Orders yang memiliki duplikat dan dikelompokkan ke dalam CustomerID di database Customers (yaitu 2114).
 - Database Orders (variabel ProdNumber:Foreign Key) memiliki relationship many-to-one dengan database Products (variabel ProdNumber) karena setiap ProdNumber memiliki OrderID masing-masing sehingga OrderID pada database Orders dapat dikelompokkan ke dalam ProdNumber di database Products.
@@ -71,14 +73,16 @@ FROM (
 ORDER BY order_date, order_qty;
 ```
 Berikut adalah tampilan 15 baris pertama dari 3339 baris Master Table)
-![tampilan master table](<Screenshot 2025-09-28 140818.png>)
+<img width="1008" height="417" alt="Screenshot 2025-09-28 140818" src="https://github.com/user-attachments/assets/6c5a5cd6-ea4d-4e08-97ba-22a980820773" />
+
 [Download Master Table](/workspaces/Bank-Muamalat-Rakamin-Project-Intern-VIX/Data/MasterTable.csv)
 
 ## Task 4 (Membuat Sales Performance Dashboard)
 
 Dashboard dibuat menggunakan Looker Studio dari data Master Table dengan tujuan memahami data transaksi dengan jelas dan membantu pemecahan masalah penjualan dengan memanfaatkan celah yang ditemukan. Berikut tampilan dashboard yang telah dibuat.
 
-![tampilan dashboard](<Dashboard_Rakamin (6)_page-0001.jpg>)
+![Dashboard_Rakamin (6)_page-0001](https://github.com/user-attachments/assets/17114f58-b59d-4592-93ff-4a0214d2af58)
+
 [Akses dashboard](tinyurl.com/dashb-sales-muamalat-carrin)
 
 Informasi yang didapatkan:
