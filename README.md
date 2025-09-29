@@ -1,4 +1,5 @@
 # Bank-Muamalat-Rakamin-Project-Intern-VIX
+## Carrin Adelina Shafira
 Primary key merupakan identitas setiap baris sehingga bersifat unique (tidak boleh ada duplikasi), tidak memiliki NULL, dan satu tabel hanya diperbolehkan memiliki 1 primary key. Project ini menggunakan 4 dataset dengan detail berikut:
 
 #### 1. Orders (3339 baris)
