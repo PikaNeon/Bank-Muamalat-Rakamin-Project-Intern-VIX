@@ -14,7 +14,7 @@ Primary key dari dataset Orders adalah OrderID.
 
 #### 2. Product Category (7 baris)
 
-Data: [ProductCategory.csv](/workspaces/Bank-Muamalat-Rakamin-Project-Intern-VIX/Data/ProductCategory.csv)
+Data: [ProductCategory.csv](ProductCategory.csv)
 - CategoryID (int)
 - CategoryNa (str)
 - CategoryAb (str)
