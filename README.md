@@ -75,7 +75,7 @@ ORDER BY order_date, order_qty;
 Berikut adalah tampilan 15 baris pertama dari 3339 baris Master Table)
 <img width="1008" height="417" alt="Screenshot 2025-09-28 140818" src="https://github.com/user-attachments/assets/6c5a5cd6-ea4d-4e08-97ba-22a980820773" />
 
-[Download Master Table](/workspaces/Bank-Muamalat-Rakamin-Project-Intern-VIX/Data/MasterTable.csv)
+[Download Master Table](MasterTable.csv)
 
 ## Task 4 (Membuat Sales Performance Dashboard)
 
